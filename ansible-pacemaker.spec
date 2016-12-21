@@ -1,12 +1,12 @@
-Name:           tripleo-ansible-modules
+Name:           ansible-pacemaker
 Version:        0.1
 Release:        1%{?dist}
-Summary:        Ansible modules for TripleO
+Summary:        Ansible modules for managing Pacemaker clusters
 
 Group:          System Environment/Base
 License:        ASL 2.0
-URL:            https://wiki.openstack.org/wiki/TripleO
-Source0:        https://github.com/redhat-openstack/tripleo-ansible-modules
+URL:            https://github.com/redhat-openstack/ansible-pacemaker/README.md
+Source0:        https://github.com/redhat-openstack/ansible-pacemaker
 
 BuildArch:      noarch
 BuildRequires:  python2-devel
@@ -18,8 +18,8 @@ Requires: ansible
 
 %description
 
-Tripleo-ansible-modules is a set of Ansible modules for TripleO Openstack
-installer. It provide modules for handling the TripleO composable upgrade
+Ansible-pacemaker is a set of Ansible modules for a Pacemaker cluster, nodes
+and resources.
 
 %prep
 %setup -q
